@@ -1,16 +1,11 @@
 #include <stdio.h>
-
- 
-
 void main()
 
-{
+  {
 
     char operator;
-
+ 
     float num1, num2, result;
-
-  
 
     printf("Enter two numbers \n");
 
@@ -19,8 +14,6 @@ void main()
     printf("Enter the operator [+,-,*,/] \n");
 
     scanf("%s", &operator);
-
-    
 
     switch(operator)
 
